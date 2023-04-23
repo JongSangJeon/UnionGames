@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA6A81429F537F400871473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6A81329F537F400871473 /* AppDelegate.swift */; };
+		ADA6A81629F537F400871473 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6A81529F537F400871473 /* SceneDelegate.swift */; };
+		ADA6A81829F537F400871473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6A81729F537F400871473 /* ViewController.swift */; };
+		ADA6A81B29F537F400871473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA6A81929F537F400871473 /* Main.storyboard */; };
+		ADA6A81D29F537F500871473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA6A81C29F537F500871473 /* Assets.xcassets */; };
+		ADA6A82029F537F500871473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA6A81E29F537F500871473 /* LaunchScreen.storyboard */; };
+		ADA6A82B29F537F500871473 /* UnionGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6A82A29F537F500871473 /* UnionGamesTests.swift */; };
+		ADA6A83529F537F500871473 /* UnionGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6A83429F537F500871473 /* UnionGamesUITests.swift */; };
+		ADA6A83729F537F500871473 /* UnionGamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6A83629F537F500871473 /* UnionGamesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA6A82729F537F500871473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA6A80829F537F400871473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA6A80F29F537F400871473;
+			remoteInfo = UnionGames;
+		};
+		ADA6A83129F537F500871473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA6A80829F537F400871473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA6A80F29F537F400871473;
+			remoteInfo = UnionGames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA6A81029F537F400871473 /* UnionGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnionGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA6A81329F537F400871473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA6A81529F537F400871473 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADA6A81729F537F400871473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADA6A81A29F537F400871473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA6A81C29F537F500871473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA6A81F29F537F500871473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA6A82129F537F500871473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA6A82629F537F500871473 /* UnionGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnionGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA6A82A29F537F500871473 /* UnionGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionGamesTests.swift; sourceTree = "<group>"; };
+		ADA6A83029F537F500871473 /* UnionGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnionGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA6A83429F537F500871473 /* UnionGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionGamesUITests.swift; sourceTree = "<group>"; };
+		ADA6A83629F537F500871473 /* UnionGamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionGamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA6A80D29F537F400871473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6A82329F537F500871473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6A82D29F537F500871473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA6A80729F537F400871473 = {
+			isa = PBXGroup;
+			children = (
+				ADA6A81229F537F400871473 /* UnionGames */,
+				ADA6A82929F537F500871473 /* UnionGamesTests */,
+				ADA6A83329F537F500871473 /* UnionGamesUITests */,
+				ADA6A81129F537F400871473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA6A81129F537F400871473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6A81029F537F400871473 /* UnionGames.app */,
+				ADA6A82629F537F500871473 /* UnionGamesTests.xctest */,
+				ADA6A83029F537F500871473 /* UnionGamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA6A81229F537F400871473 /* UnionGames */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6A81329F537F400871473 /* AppDelegate.swift */,
+				ADA6A81529F537F400871473 /* SceneDelegate.swift */,
+				ADA6A81729F537F400871473 /* ViewController.swift */,
+				ADA6A81929F537F400871473 /* Main.storyboard */,
+				ADA6A81C29F537F500871473 /* Assets.xcassets */,
+				ADA6A81E29F537F500871473 /* LaunchScreen.storyboard */,
+				ADA6A82129F537F500871473 /* Info.plist */,
+			);
+			path = UnionGames;
+			sourceTree = "<group>";
+		};
+		ADA6A82929F537F500871473 /* UnionGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6A82A29F537F500871473 /* UnionGamesTests.swift */,
+			);
+			path = UnionGamesTests;
+			sourceTree = "<group>";
+		};
+		ADA6A83329F537F500871473 /* UnionGamesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6A83429F537F500871473 /* UnionGamesUITests.swift */,
+				ADA6A83629F537F500871473 /* UnionGamesUITestsLaunchTests.swift */,
+			);
+			path = UnionGamesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA6A80F29F537F400871473 /* UnionGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA6A83A29F537F500871473 /* Build configuration list for PBXNativeTarget "UnionGames" */;
+			buildPhases = (
+				ADA6A80C29F537F400871473 /* Sources */,
+				ADA6A80D29F537F400871473 /* Frameworks */,
+				ADA6A80E29F537F400871473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnionGames;
+			productName = UnionGames;
+			productReference = ADA6A81029F537F400871473 /* UnionGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA6A82529F537F500871473 /* UnionGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA6A83D29F537F500871473 /* Build configuration list for PBXNativeTarget "UnionGamesTests" */;
+			buildPhases = (
+				ADA6A82229F537F500871473 /* Sources */,
+				ADA6A82329F537F500871473 /* Frameworks */,
+				ADA6A82429F537F500871473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA6A82829F537F500871473 /* PBXTargetDependency */,
+			);
+			name = UnionGamesTests;
+			productName = UnionGamesTests;
+			productReference = ADA6A82629F537F500871473 /* UnionGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADA6A82F29F537F500871473 /* UnionGamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA6A84029F537F500871473 /* Build configuration list for PBXNativeTarget "UnionGamesUITests" */;
+			buildPhases = (
+				ADA6A82C29F537F500871473 /* Sources */,
+				ADA6A82D29F537F500871473 /* Frameworks */,
+				ADA6A82E29F537F500871473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA6A83229F537F500871473 /* PBXTargetDependency */,
+			);
+			name = UnionGamesUITests;
+			productName = UnionGamesUITests;
+			productReference = ADA6A83029F537F500871473 /* UnionGamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA6A80829F537F400871473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ADA6A80F29F537F400871473 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ADA6A82529F537F500871473 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ADA6A80F29F537F400871473;
+					};
+					ADA6A82F29F537F500871473 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ADA6A80F29F537F400871473;
+					};
+				};
+			};
+			buildConfigurationList = ADA6A80B29F537F400871473 /* Build configuration list for PBXProject "UnionGames" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA6A80729F537F400871473;
+			productRefGroup = ADA6A81129F537F400871473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA6A80F29F537F400871473 /* UnionGames */,
+				ADA6A82529F537F500871473 /* UnionGamesTests */,
+				ADA6A82F29F537F500871473 /* UnionGamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA6A80E29F537F400871473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA6A82029F537F500871473 /* LaunchScreen.storyboard in Resources */,
+				ADA6A81D29F537F500871473 /* Assets.xcassets in Resources */,
+				ADA6A81B29F537F400871473 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6A82429F537F500871473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6A82E29F537F500871473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA6A80C29F537F400871473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA6A81829F537F400871473 /* ViewController.swift in Sources */,
+				ADA6A81429F537F400871473 /* AppDelegate.swift in Sources */,
+				ADA6A81629F537F400871473 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6A82229F537F500871473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA6A82B29F537F500871473 /* UnionGamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6A82C29F537F500871473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA6A83729F537F500871473 /* UnionGamesUITestsLaunchTests.swift in Sources */,
+				ADA6A83529F537F500871473 /* UnionGamesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA6A82829F537F500871473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA6A80F29F537F400871473 /* UnionGames */;
+			targetProxy = ADA6A82729F537F500871473 /* PBXContainerItemProxy */;
+		};
+		ADA6A83229F537F500871473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA6A80F29F537F400871473 /* UnionGames */;
+			targetProxy = ADA6A83129F537F500871473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA6A81929F537F400871473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA6A81A29F537F400871473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA6A81E29F537F500871473 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA6A81F29F537F500871473 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA6A83829F537F500871473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA6A83929F537F500871473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA6A83B29F537F500871473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnionGames/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.UnionGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA6A83C29F537F500871473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnionGames/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.UnionGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADA6A83E29F537F500871473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.UnionGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnionGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnionGames";
+			};
+			name = Debug;
+		};
+		ADA6A83F29F537F500871473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.UnionGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnionGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnionGames";
+			};
+			name = Release;
+		};
+		ADA6A84129F537F500871473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.UnionGamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnionGames;
+			};
+			name = Debug;
+		};
+		ADA6A84229F537F500871473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.UnionGamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnionGames;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA6A80B29F537F400871473 /* Build configuration list for PBXProject "UnionGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA6A83829F537F500871473 /* Debug */,
+				ADA6A83929F537F500871473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA6A83A29F537F500871473 /* Build configuration list for PBXNativeTarget "UnionGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA6A83B29F537F500871473 /* Debug */,
+				ADA6A83C29F537F500871473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA6A83D29F537F500871473 /* Build configuration list for PBXNativeTarget "UnionGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA6A83E29F537F500871473 /* Debug */,
+				ADA6A83F29F537F500871473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA6A84029F537F500871473 /* Build configuration list for PBXNativeTarget "UnionGamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA6A84129F537F500871473 /* Debug */,
+				ADA6A84229F537F500871473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA6A80829F537F400871473 /* Project object */;
+}
