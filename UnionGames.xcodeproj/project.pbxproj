@@ -36,6 +36,11 @@
 		ADA6A88429F55C7200871473 /* FingerChooserMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6A88329F55C7200871473 /* FingerChooserMainViewController.swift */; };
 		ADA6A88629F55C7F00871473 /* FingerChooserMainReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6A88529F55C7F00871473 /* FingerChooserMainReactor.swift */; };
 		ADA6A88A29F5641600871473 /* RxGesture in Frameworks */ = {isa = PBXBuildFile; productRef = ADA6A88929F5641600871473 /* RxGesture */; };
+		ADF9156329FE3A5C002AC245 /* WCLShineClickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9155D29FE3A5C002AC245 /* WCLShineClickLayer.swift */; };
+		ADF9156429FE3A5C002AC245 /* WCLShineAngleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9155E29FE3A5C002AC245 /* WCLShineAngleLayer.swift */; };
+		ADF9156529FE3A5C002AC245 /* WCLShineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9155F29FE3A5C002AC245 /* WCLShineButton.swift */; };
+		ADF9156629FE3A5C002AC245 /* WCLShineParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9156029FE3A5C002AC245 /* WCLShineParams.swift */; };
+		ADF9156729FE3A5C002AC245 /* WCLShineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9156129FE3A5C002AC245 /* WCLShineLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +86,11 @@
 		ADA6A87E29F558DC00871473 /* DashboardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarController.swift; sourceTree = "<group>"; };
 		ADA6A88329F55C7200871473 /* FingerChooserMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerChooserMainViewController.swift; sourceTree = "<group>"; };
 		ADA6A88529F55C7F00871473 /* FingerChooserMainReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerChooserMainReactor.swift; sourceTree = "<group>"; };
+		ADF9155D29FE3A5C002AC245 /* WCLShineClickLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineClickLayer.swift; sourceTree = "<group>"; };
+		ADF9155E29FE3A5C002AC245 /* WCLShineAngleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineAngleLayer.swift; sourceTree = "<group>"; };
+		ADF9155F29FE3A5C002AC245 /* WCLShineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineButton.swift; sourceTree = "<group>"; };
+		ADF9156029FE3A5C002AC245 /* WCLShineParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineParams.swift; sourceTree = "<group>"; };
+		ADF9156129FE3A5C002AC245 /* WCLShineLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +152,7 @@
 				ADA6A84F29F53C0400871473 /* Application */,
 				ADA6A85029F53C1B00871473 /* Presentation */,
 				ADA6A85129F53C3100871473 /* Data */,
+				ADF9155A29FE3A0B002AC245 /* Components */,
 				ADA6A85229F53C3400871473 /* Extension */,
 				ADA6A82129F537F500871473 /* Info.plist */,
 			);
@@ -356,6 +367,26 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		ADF9155A29FE3A0B002AC245 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9155B29FE3A16002AC245 /* ShineButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ADF9155B29FE3A16002AC245 /* ShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				ADF9155E29FE3A5C002AC245 /* WCLShineAngleLayer.swift */,
+				ADF9155F29FE3A5C002AC245 /* WCLShineButton.swift */,
+				ADF9155D29FE3A5C002AC245 /* WCLShineClickLayer.swift */,
+				ADF9156129FE3A5C002AC245 /* WCLShineLayer.swift */,
+				ADF9156029FE3A5C002AC245 /* WCLShineParams.swift */,
+			);
+			path = ShineButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -511,8 +542,13 @@
 				ADA6A81829F537F400871473 /* ViewController.swift in Sources */,
 				ADA6A88429F55C7200871473 /* FingerChooserMainViewController.swift in Sources */,
 				ADA6A87729F555CA00871473 /* GameTabMainReactor.swift in Sources */,
+				ADF9156329FE3A5C002AC245 /* WCLShineClickLayer.swift in Sources */,
+				ADF9156729FE3A5C002AC245 /* WCLShineLayer.swift in Sources */,
+				ADF9156629FE3A5C002AC245 /* WCLShineParams.swift in Sources */,
 				ADA6A87229F5523100871473 /* GameTabFlow.swift in Sources */,
+				ADF9156529FE3A5C002AC245 /* WCLShineButton.swift in Sources */,
 				ADA6A87F29F558DC00871473 /* DashboardTabBarController.swift in Sources */,
+				ADF9156429FE3A5C002AC245 /* WCLShineAngleLayer.swift in Sources */,
 				ADA6A87B29F5570000871473 /* BaseViewController.swift in Sources */,
 				ADA6A86329F53EE900871473 /* DashboardFlow.swift in Sources */,
 				ADA6A85B29F53D4D00871473 /* AppFlow.swift in Sources */,

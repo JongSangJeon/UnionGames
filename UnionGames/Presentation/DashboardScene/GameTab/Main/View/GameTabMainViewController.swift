@@ -21,7 +21,7 @@ class GameTabMainViewController: BaseViewController, Stepper, View {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        self.steps.accept(AppStep.fingerChooserMainIsRequired)
+//        self.steps.accept(AppStep.fingerChooserMainIsRequired)
     }
     
 }

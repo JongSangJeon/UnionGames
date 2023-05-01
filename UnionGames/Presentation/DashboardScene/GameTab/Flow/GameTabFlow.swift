@@ -84,7 +84,7 @@ extension GameTabFlow {
         let viewControllerWithStepper: FingerChooserMainViewController = .init()
         
         viewControllerWithStepper.reactor = reactor
-        self.rootViewController.hidesBottomBarWhenPushed = true
+        viewControllerWithStepper.hidesBottomBarWhenPushed = true
         self.rootViewController.pushViewController(viewControllerWithStepper, animated: true)
         return .one(flowContributor: .contribute(withNextPresentable: viewControllerWithStepper,
                                                  withNextStepper: viewControllerWithStepper))
